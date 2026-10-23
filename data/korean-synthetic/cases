@@ -1,0 +1,627 @@
+[
+  {
+    "id": "cafe-options-0",
+    "type": "ī�� �ɼ���",
+    "synthetic": true,
+    "license": "CC0-1.0",
+    "source_schema": [
+      "https://api.ncloud-docs.com/docs/ai-application-service-ocr-ocrdocumentocr-receipt",
+      "https://docs.tosspayments.com/guides/v2/learn/payment-results"
+    ],
+    "text": "������ �׽�Ʈ / ī�� �ɼ���\n�ŷ��Ͻ� 2026-10-22 12:30:00\nǰ�� ���� ����\n����ٳ����ֽ� 1 4,900��\n�Ƹ޸�ī�� 1 2,900��\n��(��/���̽�)HOT 0��\n�ٳ����Ŀ������ũ 1 5,800��\n����)\n�����ֽ� 1 5,900��\n�հ�ݾ� 19,500��\n���αݾ� 19,500��",
+    "expected": {
+      "date": "2026-10-22",
+      "amount": 19500,
+      "people": 4,
+      "items": 4
+    }
+  },
+  {
+    "id": "cafe-options-1",
+    "type": "ī�� �ɼ���",
+    "synthetic": true,
+    "license": "CC0-1.0",
+    "source_schema": [
+      "https://api.ncloud-docs.com/docs/ai-application-service-ocr-ocrdocumentocr-receipt",
+      "https://docs.tosspayments.com/guides/v2/learn/payment-results"
+    ],
+    "text": "������ �׽�Ʈ / ī�� �ɼ���\n�ŷ��Ͻ� 2026-10-22 12:30:00\nǰ�� ���� ����\n����ٳ����ֽ� 1 4.900��\n�Ƹ޸�ī�� 1 2.900��\n��(��/���̽�)HOT 0��\n�ٳ����Ŀ������ũ 1 5.800��\n����)\n�����ֽ� 1 5.900��\n�հ�ݾ� 19.500��\n���αݾ� 19.500��",
+    "expected": {
+      "date": "2026-10-22",
+      "amount": 19500,
+      "people": 4,
+      "items": 4
+    }
+  },
+  {
+    "id": "cafe-options-2",
+    "type": "ī�� �ɼ���",
+    "synthetic": true,
+    "license": "CC0-1.0",
+    "source_schema": [
+      "https://api.ncloud-docs.com/docs/ai-application-service-ocr-ocrdocumentocr-receipt",
+      "https://docs.tosspayments.com/guides/v2/learn/payment-results"
+    ],
+    "text": "������ �׽�Ʈ / ī�� �ɼ���\n�ŷ��Ͻ� 2026-10-22 12:30:00\nǰ�� ���� ����\n����ٳ����ֽ� 1 4900��\n�Ƹ޸�ī�� 1 2900��\n��(��/���̽�)HOT 0��\n�ٳ����Ŀ������ũ 1 5800��\n����)\n�����ֽ� 1 5900��\n�հ�ݾ� 19500��\n���αݾ� 19500��",
+    "expected": {
+      "date": "2026-10-22",
+      "amount": 19500,
+      "people": 4,
+      "items": 4
+    }
+  },
+  {
+    "id": "unit-qty-total-0",
+    "type": "�Ĵ� �ܰ���������",
+    "synthetic": true,
+    "license": "CC0-1.0",
+    "source_schema": [
+      "https://api.ncloud-docs.com/docs/ai-application-service-ocr-ocrdocumentocr-receipt",
+      "https://docs.tosspayments.com/guides/v2/learn/payment-results"
+    ],
+    "text": "������ �׽�Ʈ / �Ĵ� �ܰ���������\n�ŷ��Ͻ� 2026-10-22 12:30:00\n��ǰ�� �ܰ� ���� �ݾ�\n�������� 9,000 3 27,000\n�հ�ݾ� 27,000��\n���αݾ� 27,000��",
+    "expected": {
+      "date": "2026-10-22",
+      "amount": 27000,
+      "people": 3,
+      "items": 1
+    }
+  },
+  {
+    "id": "unit-qty-total-1",
+    "type": "�Ĵ� �ܰ���������",
+    "synthetic": true,
+    "license": "CC0-1.0",
+    "source_schema": [
+      "https://api.ncloud-docs.com/docs/ai-application-service-ocr-ocrdocumentocr-receipt",
+      "https://docs.tosspayments.com/guides/v2/learn/payment-results"
+    ],
+    "text": "������ �׽�Ʈ / �Ĵ� �ܰ���������\n�ŷ��Ͻ� 2026-10-22 12:30:00\n��ǰ�� �ܰ� ���� �ݾ�\n�������� 9.000 3 27.000\n�հ�ݾ� 27.000��\n���αݾ� 27.000��",
+    "expected": {
+      "date": "2026-10-22",
+      "amount": 27000,
+      "people": 3,
+      "items": 1
+    }
+  },
+  {
+    "id": "unit-qty-total-2",
+    "type": "�Ĵ� �ܰ���������",
+    "synthetic": true,
+    "license": "CC0-1.0",
+    "source_schema": [
+      "https://api.ncloud-docs.com/docs/ai-application-service-ocr-ocrdocumentocr-receipt",
+      "https://docs.tosspayments.com/guides/v2/learn/payment-results"
+    ],
+    "text": "������ �׽�Ʈ / �Ĵ� �ܰ���������\n�ŷ��Ͻ� 2026-10-22 12:30:00\n��ǰ�� �ܰ� ���� �ݾ�\n�������� 9000 3 27000\n�հ�ݾ� 27000��\n���αݾ� 27000��",
+    "expected": {
+      "date": "2026-10-22",
+      "amount": 27000,
+      "people": 3,
+      "items": 1
+    }
+  },
+  {
+    "id": "wrapped-four-columns-0",
+    "type": "Ǫ��Ȧ �ٹٲ���",
+    "synthetic": true,
+    "license": "CC0-1.0",
+    "source_schema": [
+      "https://api.ncloud-docs.com/docs/ai-application-service-ocr-ocrdocumentocr-receipt",
+      "https://docs.tosspayments.com/guides/v2/learn/payment-results"
+    ],
+    "text": "������ �׽�Ʈ / Ǫ��Ȧ �ٹٲ���\n�ŷ��Ͻ� 2026-10-22 12:30:00\n��ǰ�� �ܰ� ���� ���� �ݾ�\n�յ��\n12,300 1 0 12,300\n�����Ƚ�ī��\n13,800 1 0 13,800\n�հ�ݾ� 26,100��\n���αݾ� 26,100��",
+    "expected": {
+      "date": "2026-10-22",
+      "amount": 26100,
+      "people": 2,
+      "items": 2
+    }
+  },
+  {
+    "id": "wrapped-four-columns-1",
+    "type": "Ǫ��Ȧ �ٹٲ���",
+    "synthetic": true,
+    "license": "CC0-1.0",
+    "source_schema": [
+      "https://api.ncloud-docs.com/docs/ai-application-service-ocr-ocrdocumentocr-receipt",
+      "https://docs.tosspayments.com/guides/v2/learn/payment-results"
+    ],
+    "text": "������ �׽�Ʈ / Ǫ��Ȧ �ٹٲ���\n�ŷ��Ͻ� 2026-10-22 12:30:00\n��ǰ�� �ܰ� ���� ���� �ݾ�\n�յ��\n12.300 1 0 12.300\n�����Ƚ�ī��\n13.800 1 0 13.800\n�հ�ݾ� 26.100��\n���αݾ� 26.100��",
+    "expected": {
+      "date": "2026-10-22",
+      "amount": 26100,
+      "people": 2,
+      "items": 2
+    }
+  },
+  {
+    "id": "wrapped-four-columns-2",
+    "type": "Ǫ��Ȧ �ٹٲ���",
+    "synthetic": true,
+    "license": "CC0-1.0",
+    "source_schema": [
+      "https://api.ncloud-docs.com/docs/ai-application-service-ocr-ocrdocumentocr-receipt",
+      "https://docs.tosspayments.com/guides/v2/learn/payment-results"
+    ],
+    "text": "������ �׽�Ʈ / Ǫ��Ȧ �ٹٲ���\n�ŷ��Ͻ� 2026-10-22 12:30:00\n��ǰ�� �ܰ� ���� ���� �ݾ�\n�յ��\n12300 1 0 12300\n�����Ƚ�ī��\n13800 1 0 13800\n�հ�ݾ� 26100��\n���αݾ� 26100��",
+    "expected": {
+      "date": "2026-10-22",
+      "amount": 26100,
+      "people": 2,
+      "items": 2
+    }
+  },
+  {
+    "id": "barcode-0",
+    "type": "��Ʈ ���ڵ���",
+    "synthetic": true,
+    "license": "CC0-1.0",
+    "source_schema": [
+      "https://api.ncloud-docs.com/docs/ai-application-service-ocr-ocrdocumentocr-receipt",
+      "https://docs.tosspayments.com/guides/v2/learn/payment-results"
+    ],
+    "text": "������ �׽�Ʈ / ��Ʈ ���ڵ���\n�ŷ��Ͻ� 2026-10-22 12:30:00\n��ǰ�� �ܰ� ���� �ݾ�\n8800123456789 ���ڿ��� 2,800 2 5,600\n8800987654321 ġ� 3,000 1 3,000\n�հ�ݾ� 8,600��\n���αݾ� 8,600��",
+    "expected": {
+      "date": "2026-10-22",
+      "amount": 8600,
+      "people": 3,
+      "items": 2
+    }
+  },
+  {
+    "id": "barcode-1",
+    "type": "��Ʈ ���ڵ���",
+    "synthetic": true,
+    "license": "CC0-1.0",
+    "source_schema": [
+      "https://api.ncloud-docs.com/docs/ai-application-service-ocr-ocrdocumentocr-receipt",
+      "https://docs.tosspayments.com/guides/v2/learn/payment-results"
+    ],
+    "text": "������ �׽�Ʈ / ��Ʈ ���ڵ���\n�ŷ��Ͻ� 2026-10-22 12:30:00\n��ǰ�� �ܰ� ���� �ݾ�\n8800123456789 ���ڿ��� 2.800 2 5.600\n8800987654321 ġ� 3.000 1 3.000\n�հ�ݾ� 8.600��\n���αݾ� 8.600��",
+    "expected": {
+      "date": "2026-10-22",
+      "amount": 8600,
+      "people": 3,
+      "items": 2
+    }
+  },
+  {
+    "id": "barcode-2",
+    "type": "��Ʈ ���ڵ���",
+    "synthetic": true,
+    "license": "CC0-1.0",
+    "source_schema": [
+      "https://api.ncloud-docs.com/docs/ai-application-service-ocr-ocrdocumentocr-receipt",
+      "https://docs.tosspayments.com/guides/v2/learn/payment-results"
+    ],
+    "text": "������ �׽�Ʈ / ��Ʈ ���ڵ���\n�ŷ��Ͻ� 2026-10-22 12:30:00\n��ǰ�� �ܰ� ���� �ݾ�\n8800123456789 ���ڿ��� 2800 2 5600\n8800987654321 ġ� 3000 1 3000\n�հ�ݾ� 8600��\n���αݾ� 8600��",
+    "expected": {
+      "date": "2026-10-22",
+      "amount": 8600,
+      "people": 3,
+      "items": 2
+    }
+  },
+  {
+    "id": "quantity-last-0",
+    "type": "���� �� ������",
+    "synthetic": true,
+    "license": "CC0-1.0",
+    "source_schema": [
+      "https://api.ncloud-docs.com/docs/ai-application-service-ocr-ocrdocumentocr-receipt",
+      "https://docs.tosspayments.com/guides/v2/learn/payment-results"
+    ],
+    "text": "������ �׽�Ʈ / ���� �� ������\n�ŷ��Ͻ� 2026-10-22 12:30:00\n��ǰ�� ���� ����\n��ũƼ 4,500 2\n������ 5,000 1\n�հ�ݾ� 14,000��\n���αݾ� 14,000��",
+    "expected": {
+      "date": "2026-10-22",
+      "amount": 14000,
+      "people": 3,
+      "items": 2
+    }
+  },
+  {
+    "id": "quantity-last-1",
+    "type": "���� �� ������",
+    "synthetic": true,
+    "license": "CC0-1.0",
+    "source_schema": [
+      "https://api.ncloud-docs.com/docs/ai-application-service-ocr-ocrdocumentocr-receipt",
+      "https://docs.tosspayments.com/guides/v2/learn/payment-results"
+    ],
+    "text": "������ �׽�Ʈ / ���� �� ������\n�ŷ��Ͻ� 2026-10-22 12:30:00\n��ǰ�� ���� ����\n��ũƼ 4.500 2\n������ 5.000 1\n�հ�ݾ� 14.000��\n���αݾ� 14.000��",
+    "expected": {
+      "date": "2026-10-22",
+      "amount": 14000,
+      "people": 3,
+      "items": 2
+    }
+  },
+  {
+    "id": "quantity-last-2",
+    "type": "���� �� ������",
+    "synthetic": true,
+    "license": "CC0-1.0",
+    "source_schema": [
+      "https://api.ncloud-docs.com/docs/ai-application-service-ocr-ocrdocumentocr-receipt",
+      "https://docs.tosspayments.com/guides/v2/learn/payment-results"
+    ],
+    "text": "������ �׽�Ʈ / ���� �� ������\n�ŷ��Ͻ� 2026-10-22 12:30:00\n��ǰ�� ���� ����\n��ũƼ 4500 2\n������ 5000 1\n�հ�ݾ� 14000��\n���αݾ� 14000��",
+    "expected": {
+      "date": "2026-10-22",
+      "amount": 14000,
+      "people": 3,
+      "items": 2
+    }
+  },
+  {
+    "id": "qty-unit-discount-0",
+    "type": "�������ܰ���������",
+    "synthetic": true,
+    "license": "CC0-1.0",
+    "source_schema": [
+      "https://api.ncloud-docs.com/docs/ai-application-service-ocr-ocrdocumentocr-receipt",
+      "https://docs.tosspayments.com/guides/v2/learn/payment-results"
+    ],
+    "text": "������ �׽�Ʈ / �������ܰ���������\n�ŷ��Ͻ� 2026-10-22 12:30:00\nǰ�� ���� �ܰ� ���� �ݾ�\n������ġ 2 6,000 0 12,000\n�հ�ݾ� 12,000��\n���αݾ� 12,000��",
+    "expected": {
+      "date": "2026-10-22",
+      "amount": 12000,
+      "people": 2,
+      "items": 1
+    }
+  },
+  {
+    "id": "qty-unit-discount-1",
+    "type": "�������ܰ���������",
+    "synthetic": true,
+    "license": "CC0-1.0",
+    "source_schema": [
+      "https://api.ncloud-docs.com/docs/ai-application-service-ocr-ocrdocumentocr-receipt",
+      "https://docs.tosspayments.com/guides/v2/learn/payment-results"
+    ],
+    "text": "������ �׽�Ʈ / �������ܰ���������\n�ŷ��Ͻ� 2026-10-22 12:30:00\nǰ�� ���� �ܰ� ���� �ݾ�\n������ġ 2 6.000 0 12.000\n�հ�ݾ� 12.000��\n���αݾ� 12.000��",
+    "expected": {
+      "date": "2026-10-22",
+      "amount": 12000,
+      "people": 2,
+      "items": 1
+    }
+  },
+  {
+    "id": "qty-unit-discount-2",
+    "type": "�������ܰ���������",
+    "synthetic": true,
+    "license": "CC0-1.0",
+    "source_schema": [
+      "https://api.ncloud-docs.com/docs/ai-application-service-ocr-ocrdocumentocr-receipt",
+      "https://docs.tosspayments.com/guides/v2/learn/payment-results"
+    ],
+    "text": "������ �׽�Ʈ / �������ܰ���������\n�ŷ��Ͻ� 2026-10-22 12:30:00\nǰ�� ���� �ܰ� ���� �ݾ�\n������ġ 2 6000 0 12000\n�հ�ݾ� 12000��\n���αݾ� 12000��",
+    "expected": {
+      "date": "2026-10-22",
+      "amount": 12000,
+      "people": 2,
+      "items": 1
+    }
+  },
+  {
+    "id": "quantity-units-0",
+    "type": "�ܡ��� ������",
+    "synthetic": true,
+    "license": "CC0-1.0",
+    "source_schema": [
+      "https://api.ncloud-docs.com/docs/ai-application-service-ocr-ocrdocumentocr-receipt",
+      "https://docs.tosspayments.com/guides/v2/learn/payment-results"
+    ],
+    "text": "������ �׽�Ʈ / �ܡ��� ������\n�ŷ��Ͻ� 2026-10-22 12:30:00\nǰ�� ���� �ݾ�\n���������� 2�� 10,000��\n�ٰ�Ʈ 1�� 4,000��\n�հ�ݾ� 14,000��\n���αݾ� 14,000��",
+    "expected": {
+      "date": "2026-10-22",
+      "amount": 14000,
+      "people": 3,
+      "items": 2
+    }
+  },
+  {
+    "id": "quantity-units-1",
+    "type": "�ܡ��� ������",
+    "synthetic": true,
+    "license": "CC0-1.0",
+    "source_schema": [
+      "https://api.ncloud-docs.com/docs/ai-application-service-ocr-ocrdocumentocr-receipt",
+      "https://docs.tosspayments.com/guides/v2/learn/payment-results"
+    ],
+    "text": "������ �׽�Ʈ / �ܡ��� ������\n�ŷ��Ͻ� 2026-10-22 12:30:00\nǰ�� ���� �ݾ�\n���������� 2�� 10.000��\n�ٰ�Ʈ 1�� 4.000��\n�հ�ݾ� 14.000��\n���αݾ� 14.000��",
+    "expected": {
+      "date": "2026-10-22",
+      "amount": 14000,
+      "people": 3,
+      "items": 2
+    }
+  },
+  {
+    "id": "quantity-units-2",
+    "type": "�ܡ��� ������",
+    "synthetic": true,
+    "license": "CC0-1.0",
+    "source_schema": [
+      "https://api.ncloud-docs.com/docs/ai-application-service-ocr-ocrdocumentocr-receipt",
+      "https://docs.tosspayments.com/guides/v2/learn/payment-results"
+    ],
+    "text": "������ �׽�Ʈ / �ܡ��� ������\n�ŷ��Ͻ� 2026-10-22 12:30:00\nǰ�� ���� �ݾ�\n���������� 2�� 10000��\n�ٰ�Ʈ 1�� 4000��\n�հ�ݾ� 14000��\n���αݾ� 14000��",
+    "expected": {
+      "date": "2026-10-22",
+      "amount": 14000,
+      "people": 3,
+      "items": 2
+    }
+  },
+  {
+    "id": "new-product-0",
+    "type": "���ο� �޴���",
+    "synthetic": true,
+    "license": "CC0-1.0",
+    "source_schema": [
+      "https://api.ncloud-docs.com/docs/ai-application-service-ocr-ocrdocumentocr-receipt",
+      "https://docs.tosspayments.com/guides/v2/learn/payment-results"
+    ],
+    "text": "������ �׽�Ʈ / ���ο� �޴���\n�ŷ��Ͻ� 2026-10-22 12:30:00\nǰ�� ���� ����\n���̺��������� 2 11,000��\n�ڸ���Ϻ���Ƽ 1 5,500��\n�հ�ݾ� 16,500��\n���αݾ� 16,500��",
+    "expected": {
+      "date": "2026-10-22",
+      "amount": 16500,
+      "people": 3,
+      "items": 2
+    }
+  },
+  {
+    "id": "new-product-1",
+    "type": "���ο� �޴���",
+    "synthetic": true,
+    "license": "CC0-1.0",
+    "source_schema": [
+      "https://api.ncloud-docs.com/docs/ai-application-service-ocr-ocrdocumentocr-receipt",
+      "https://docs.tosspayments.com/guides/v2/learn/payment-results"
+    ],
+    "text": "������ �׽�Ʈ / ���ο� �޴���\n�ŷ��Ͻ� 2026-10-22 12:30:00\nǰ�� ���� ����\n���̺��������� 2 11.000��\n�ڸ���Ϻ���Ƽ 1 5.500��\n�հ�ݾ� 16.500��\n���αݾ� 16.500��",
+    "expected": {
+      "date": "2026-10-22",
+      "amount": 16500,
+      "people": 3,
+      "items": 2
+    }
+  },
+  {
+    "id": "new-product-2",
+    "type": "���ο� �޴���",
+    "synthetic": true,
+    "license": "CC0-1.0",
+    "source_schema": [
+      "https://api.ncloud-docs.com/docs/ai-application-service-ocr-ocrdocumentocr-receipt",
+      "https://docs.tosspayments.com/guides/v2/learn/payment-results"
+    ],
+    "text": "������ �׽�Ʈ / ���ο� �޴���\n�ŷ��Ͻ� 2026-10-22 12:30:00\nǰ�� ���� ����\n���̺��������� 2 11000��\n�ڸ���Ϻ���Ƽ 1 5500��\n�հ�ݾ� 16500��\n���αݾ� 16500��",
+    "expected": {
+      "date": "2026-10-22",
+      "amount": 16500,
+      "people": 3,
+      "items": 2
+    }
+  },
+  {
+    "id": "missing-header-0",
+    "type": "ǥ �Ӹ��� ������",
+    "synthetic": true,
+    "license": "CC0-1.0",
+    "source_schema": [
+      "https://api.ncloud-docs.com/docs/ai-application-service-ocr-ocrdocumentocr-receipt",
+      "https://docs.tosspayments.com/guides/v2/learn/payment-results"
+    ],
+    "text": "������ �׽�Ʈ / ǥ �Ӹ��� ������\n�ŷ��Ͻ� 2026-10-22 12:30:00\n���̺��������� 2 11,000��\n�ڸ���Ϻ���Ƽ 1 5,500��\n�հ�ݾ� 16,500��\n���αݾ� 16,500��",
+    "expected": {
+      "date": "2026-10-22",
+      "amount": 16500,
+      "people": 3,
+      "items": 2
+    }
+  },
+  {
+    "id": "missing-header-1",
+    "type": "ǥ �Ӹ��� ������",
+    "synthetic": true,
+    "license": "CC0-1.0",
+    "source_schema": [
+      "https://api.ncloud-docs.com/docs/ai-application-service-ocr-ocrdocumentocr-receipt",
+      "https://docs.tosspayments.com/guides/v2/learn/payment-results"
+    ],
+    "text": "������ �׽�Ʈ / ǥ �Ӹ��� ������\n�ŷ��Ͻ� 2026-10-22 12:30:00\n���̺��������� 2 11.000��\n�ڸ���Ϻ���Ƽ 1 5.500��\n�հ�ݾ� 16.500��\n���αݾ� 16.500��",
+    "expected": {
+      "date": "2026-10-22",
+      "amount": 16500,
+      "people": 3,
+      "items": 2
+    }
+  },
+  {
+    "id": "missing-header-2",
+    "type": "ǥ �Ӹ��� ������",
+    "synthetic": true,
+    "license": "CC0-1.0",
+    "source_schema": [
+      "https://api.ncloud-docs.com/docs/ai-application-service-ocr-ocrdocumentocr-receipt",
+      "https://docs.tosspayments.com/guides/v2/learn/payment-results"
+    ],
+    "text": "������ �׽�Ʈ / ǥ �Ӹ��� ������\n�ŷ��Ͻ� 2026-10-22 12:30:00\n���̺��������� 2 11000��\n�ڸ���Ϻ���Ƽ 1 5500��\n�հ�ݾ� 16500��\n���αݾ� 16500��",
+    "expected": {
+      "date": "2026-10-22",
+      "amount": 16500,
+      "people": 3,
+      "items": 2
+    }
+  },
+  {
+    "id": "missing-quantity-0",
+    "type": "���� ���ν���",
+    "synthetic": true,
+    "license": "CC0-1.0",
+    "source_schema": [
+      "https://api.ncloud-docs.com/docs/ai-application-service-ocr-ocrdocumentocr-receipt",
+      "https://docs.tosspayments.com/guides/v2/learn/payment-results"
+    ],
+    "text": "������ �׽�Ʈ / ���� ���ν���\n�ŷ��Ͻ� 2026-10-22 12:30:00\nǰ�� ���� ����\n���̺��������� 11,000��\n�ڸ���Ϻ���Ƽ 1 5,500��\n�հ�ݾ� 16,500��\n���αݾ� 16,500��",
+    "expected": {
+      "date": "2026-10-22",
+      "amount": 16500,
+      "people": "",
+      "items": 2
+    }
+  },
+  {
+    "id": "missing-quantity-1",
+    "type": "���� ���ν���",
+    "synthetic": true,
+    "license": "CC0-1.0",
+    "source_schema": [
+      "https://api.ncloud-docs.com/docs/ai-application-service-ocr-ocrdocumentocr-receipt",
+      "https://docs.tosspayments.com/guides/v2/learn/payment-results"
+    ],
+    "text": "������ �׽�Ʈ / ���� ���ν���\n�ŷ��Ͻ� 2026-10-22 12:30:00\nǰ�� ���� ����\n���̺��������� 11.000��\n�ڸ���Ϻ���Ƽ 1 5.500��\n�հ�ݾ� 16.500��\n���αݾ� 16.500��",
+    "expected": {
+      "date": "2026-10-22",
+      "amount": 16500,
+      "people": "",
+      "items": 2
+    }
+  },
+  {
+    "id": "missing-quantity-2",
+    "type": "���� ���ν���",
+    "synthetic": true,
+    "license": "CC0-1.0",
+    "source_schema": [
+      "https://api.ncloud-docs.com/docs/ai-application-service-ocr-ocrdocumentocr-receipt",
+      "https://docs.tosspayments.com/guides/v2/learn/payment-results"
+    ],
+    "text": "������ �׽�Ʈ / ���� ���ν���\n�ŷ��Ͻ� 2026-10-22 12:30:00\nǰ�� ���� ����\n���̺��������� 11000��\n�ڸ���Ϻ���Ƽ 1 5500��\n�հ�ݾ� 16500��\n���αݾ� 16500��",
+    "expected": {
+      "date": "2026-10-22",
+      "amount": 16500,
+      "people": "",
+      "items": 2
+    }
+  },
+  {
+    "id": "refund-0",
+    "type": "��ҡ���ǰ ������",
+    "synthetic": true,
+    "license": "CC0-1.0",
+    "source_schema": [
+      "https://api.ncloud-docs.com/docs/ai-application-service-ocr-ocrdocumentocr-receipt",
+      "https://docs.tosspayments.com/guides/v2/learn/payment-results"
+    ],
+    "text": "������ �׽�Ʈ / ��ҡ���ǰ ������\n�ŷ��Ͻ� 2026-10-22 12:30:00\nǰ�� ���� ����\n������ 2 4,000��\n��� �ٴҶ��ũ 1 5,000��\n�հ�ݾ� 4,000��\n���αݾ� 4,000��",
+    "expected": {
+      "date": "2026-10-22",
+      "amount": 4000,
+      "people": 2,
+      "items": 1
+    }
+  },
+  {
+    "id": "refund-1",
+    "type": "��ҡ���ǰ ������",
+    "synthetic": true,
+    "license": "CC0-1.0",
+    "source_schema": [
+      "https://api.ncloud-docs.com/docs/ai-application-service-ocr-ocrdocumentocr-receipt",
+      "https://docs.tosspayments.com/guides/v2/learn/payment-results"
+    ],
+    "text": "������ �׽�Ʈ / ��ҡ���ǰ ������\n�ŷ��Ͻ� 2026-10-22 12:30:00\nǰ�� ���� ����\n������ 2 4.000��\n��� �ٴҶ��ũ 1 5.000��\n�հ�ݾ� 4.000��\n���αݾ� 4.000��",
+    "expected": {
+      "date": "2026-10-22",
+      "amount": 4000,
+      "people": 2,
+      "items": 1
+    }
+  },
+  {
+    "id": "refund-2",
+    "type": "��ҡ���ǰ ������",
+    "synthetic": true,
+    "license": "CC0-1.0",
+    "source_schema": [
+      "https://api.ncloud-docs.com/docs/ai-application-service-ocr-ocrdocumentocr-receipt",
+      "https://docs.tosspayments.com/guides/v2/learn/payment-results"
+    ],
+    "text": "������ �׽�Ʈ / ��ҡ���ǰ ������\n�ŷ��Ͻ� 2026-10-22 12:30:00\nǰ�� ���� ����\n������ 2 4000��\n��� �ٴҶ��ũ 1 5000��\n�հ�ݾ� 4000��\n���αݾ� 4000��",
+    "expected": {
+      "date": "2026-10-22",
+      "amount": 4000,
+      "people": 2,
+      "items": 1
+    }
+  },
+  {
+    "id": "discount-points-0",
+    "type": "���Ρ�������",
+    "synthetic": true,
+    "license": "CC0-1.0",
+    "source_schema": [
+      "https://api.ncloud-docs.com/docs/ai-application-service-ocr-ocrdocumentocr-receipt",
+      "https://docs.tosspayments.com/guides/v2/learn/payment-results"
+    ],
+    "text": "������ �׽�Ʈ / ���Ρ�������\n�ŷ��Ͻ� 2026-10-22 12:30:00\nǰ�� ���� ����\n���� 2 20,000��\n���αݾ� 3,000��\n�������Ʈ 1,000\n��������Ʈ 160\n�հ�ݾ� 16,000��\n���αݾ� 16,000��",
+    "expected": {
+      "date": "2026-10-22",
+      "amount": 16000,
+      "people": 2,
+      "items": 1
+    }
+  },
+  {
+    "id": "discount-points-1",
+    "type": "���Ρ�������",
+    "synthetic": true,
+    "license": "CC0-1.0",
+    "source_schema": [
+      "https://api.ncloud-docs.com/docs/ai-application-service-ocr-ocrdocumentocr-receipt",
+      "https://docs.tosspayments.com/guides/v2/learn/payment-results"
+    ],
+    "text": "������ �׽�Ʈ / ���Ρ�������\n�ŷ��Ͻ� 2026-10-22 12:30:00\nǰ�� ���� ����\n���� 2 20.000��\n���αݾ� 3.000��\n�������Ʈ 1.000\n��������Ʈ 160\n�հ�ݾ� 16.000��\n���αݾ� 16.000��",
+    "expected": {
+      "date": "2026-10-22",
+      "amount": 16000,
+      "people": 2,
+      "items": 1
+    }
+  },
+  {
+    "id": "discount-points-2",
+    "type": "���Ρ�������",
+    "synthetic": true,
+    "license": "CC0-1.0",
+    "source_schema": [
+      "https://api.ncloud-docs.com/docs/ai-application-service-ocr-ocrdocumentocr-receipt",
+      "https://docs.tosspayments.com/guides/v2/learn/payment-results"
+    ],
+    "text": "������ �׽�Ʈ / ���Ρ�������\n�ŷ��Ͻ� 2026-10-22 12:30:00\nǰ�� ���� ����\n���� 2 20000��\n���αݾ� 3000��\n�������Ʈ 1000\n��������Ʈ 160\n�հ�ݾ� 16000��\n���αݾ� 16000��",
+    "expected": {
+      "date": "2026-10-22",
+      "amount": 16000,
+      "people": 2,
+      "items": 1
+    }
+  },
+  {
+    "id": "digital-card-no-items",
+    "type": "ǰ�� ���� ����� ��������",
+    "synthetic": true,
+    "license": "CC0-1.0",
+    "text": "ī�� ��������\n15,800�� �ݾ� ��\n���� ����\n�ŷ� ���� 26. 9. 1 �� 16:07:40\n���� ī�� MC-P\n���λ��� ����",
+    "expected": {
+      "date": "2026-09-01",
+      "amount": 15800,
+      "people": "",
+      "items": 0
+    }
+  }
+]
